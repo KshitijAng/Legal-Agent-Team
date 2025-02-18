@@ -30,7 +30,7 @@ A full-service legal team using multiple AI agents using **Phidata** to analyze 
 2. **Database Integration (pgvector):** This application leverages pgvector for managing embeddings in a PostgreSQL database. pgvector allows the storage and querying of vector embeddings efficiently, making it an ideal choice for high-performance document analysis. For setting up and using pgvector in the system, follow the installation in the [PhiData documentation](https://docs.phidata.com/examples/integrations/pgvector) via **Docker**.
 
 4. **Use the Interface**
-- Enter API credentials
+- Enter OpenAI API credentials
 - Upload a legal document (PDF) in ```data/``` directory
 - Add custom queries if needed
 - View analysis results
@@ -46,4 +46,4 @@ python main.py
 - Uses **Ollama** to serve open-source models
 - Uses **pgvector** as VectorDB
 - Requires stable internet connection
-- Requires OPENAI api key and usage costs apply
+- Requires OpenAI API key and usage costs apply
