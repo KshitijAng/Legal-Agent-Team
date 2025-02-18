@@ -1,0 +1,9 @@
+phi
+phidata   
+sqlalchemy
+pgvector
+psycopg[binary]      
+pypdf
+duckduckgo-search
+openai
+groq
