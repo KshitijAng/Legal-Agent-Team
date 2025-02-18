@@ -1,10 +1,8 @@
 from phi.agent import Agent
-from phi.knowledge.pdf import PDFKnowledgeBase, PDFReader
+from phi.knowledge.pdf import PDFKnowledgeBase
 from phi.vectordb.pgvector import PgVector2 #VectorDB
-from phi.storage.agent.postgres import PgAgentStorage
 from phi.tools.duckduckgo import DuckDuckGo
 from phi.model.ollama import Ollama
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
